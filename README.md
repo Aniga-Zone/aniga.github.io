@@ -1,3 +1,3 @@
 # Site-ul oficial al comunității Aniga.
 
-# [Discord](dsc.gg/aniga)
+# [Discord](https://dsc.gg/aniga)
