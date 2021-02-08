@@ -1,58 +1,462 @@
-<!DOCTYPE HTML>
-<meta charset="utf-8">
-<html>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
 <head>
-<title>Aniga Zone x Un nou concept.</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Site-ul oficial Aniga Zone.">  
-<meta name="author" content="Radu Florentin">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-<style>
-p {
-  text-align: center;
-  font-size: 60px;
-  margin: 20%;
-}
-body {
-	font-family: 'Roboto';
-}
-</style>
+    <meta charset="utf-8">
+    
+    <!--====== Title ======-->
+    <title>Aniga Zone</title>
+    
+    <meta name="description" content="Site-ul oficial Aniga Zone.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+        
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+                
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap-4.5.0.min.css">
+    
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+    
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
 </head>
+
 <body>
+    <!--[if IE]>
+    <p class="browserupgrade">Folosești un browser <strong>vechi</strong>. Actualizează-ți<a href="https://browsehappy.com/">browser-ul</a> pentru a-ți îmbunătăți experiența și securitatea ta online.</p>
+  <![endif]-->    
+   
+   
+    <!--====== PRELOADER PART START ======-->
 
-<p id="demo"></p>
-<img src="">
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Feb 8, 2021 22:00:00").getTime();
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+    <!--====== PRELOADER PART ENDS ======-->
+    
+    <!--====== HEADER PART START ======-->
+    
+    <header class="header-area">
+        <div class="navbar-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="https://aniga.ml">
+                                <img src="assets/images/logo.svg" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
 
-  // Get today's date and time
-  var now = new Date().getTime();
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="page-scroll" href="https://aniga.ml">Acasă</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="updates.html">Updates</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="support.html">Susține-ne!</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                            
+                            <div class="navbar-btn d-none d-sm-inline-block">
+                                <a class="main-btn" data-scroll-nav="0" href="https://dsc.gg/aniga" rel="nofollow">Intră acum</a>
+                            </div>
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- navbar area -->
+        
+        <div id="home" class="header-hero bg_cover" style="background-image: url(assets/images/banner-bg.svg)">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="header-hero-content text-center">
+                            <h3 class="header-sub-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.2s">Aniga Zone</h3>
+                            <h2 class="header-title wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.5s">Un nou început.</h2>
+                            <p class="text wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="0.8s">Aniga este un server dedicat oamenilor care vor să socializeze<br>și să realizeze diferite activități într-un mediu plăcut.</p>
+                            <a href="https://dsc.gg/aniga" class="main-btn wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">Intră acum</a>
+                            <a href="#features" class="main-btn wow fadeInUp" data-wow-duration="1.3s" data-wow-delay="1.1s">Află mai multe</a>
+                        </div> <!-- header hero content -->
+                    </div>
+                </div> <!-- row -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="header-hero-image text-center wow fadeIn" data-wow-duration="1.3s" data-wow-delay="1.4s">
+                            <img src="assets/images/header-hero.png" alt="Landing">
+                        </div> <!-- header hero image -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+            <div id="particles-1" class="particles"></div>
+        </div> <!-- header hero -->
+    </header>
     
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+    <!--====== HEADER PART ENDS ======-->
     
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    <!--====== BRAMD PART START ======-->
     
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+    <div class="brand-area pt-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="brand-logo d-flex align-items-center justify-content-center justify-content-md-between">
+                        
+                        </div> <!-- single logo -->
+                        <div style="margin-left: auto;margin-right: auto;width: 256px;height: 256px;" class="single-logo mt-30 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+                            <img src="assets/images/brand-3.png" alt="brand">
+                            </div>
+                        </div> <!-- single logo -->
+                    </div> <!-- brand logo -->
+                </div>
+            </div>   <!-- row -->
+        </div> <!-- container -->
+    </div>
     
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "Yay! Site-ul se schimbă!";
-  }
-}, 1000);
-</script>
+    <!--====== BRAMD PART ENDS ======-->
+    
+    <!--====== SERVICES PART START ======-->
+    
+    <section id="features" class="services-area pt-30">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="section-title text-center pb-40">
+                        <div class="line m-auto"></div>
+                        <h3 class="title">Iată câteva lucruri speciale legate de server!</span></h3>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                        <div class="services-icon">
+                            <img class="shape" src="assets/images/services-shape.svg" alt="shape">
+                            <img class="shape-1" src="assets/images/services-shape-1.svg" alt="shape">
+                            <i class="lni lni-pin"></i>
+                        </div>
+                        <div class="services-content mt-30">
+                            <h4 class="services-title"><a>Pus la punct</a></h4>
+                            <p class="text">Te-ai întâlnit, poate, cu servere care erau haotice. Acesta nu este. Poți să fii sigur că o să te simți ca acasă, cel puțin încercăm să îți oferim această experiență. :)</p>
+                        </div>
+                    </div> <!-- single services -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <div class="services-icon">
+                            <img class="shape" src="assets/images/services-shape.svg" alt="shape">
+                            <img class="shape-1" src="assets/images/services-shape-2.svg" alt="shape">
+                            <i class="lni lni-code"></i>
+                        </div>
+                        <div class="services-content mt-30">
+                            <h4 class="services-title"><a>Aniga Bot</a></h4>
+                            <p class="text">Avem propriul nostru bot, care are ca scop îmbunătățirea experienței membriilor.</p>
+                        </div>
+                    </div> <!-- single services -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <div class="services-icon">
+                            <img class="shape" src="assets/images/services-shape.svg" alt="shape">
+                            <img class="shape-1" src="assets/images/services-shape-3.svg" alt="shape">
+                            <i class="lni lni-cog"></i>
+                        </div>
+                        <div class="services-content mt-30">
+                            <h4 class="services-title"><a>Update-uri regulate</a></h4>
+                            <p class="text">Acestea pot consta în ceva estetic, administrativ sau un bug fix.</p>
+                            <a class="more" href="updates.html">Vezi update-urile<i class="lni lni-chevron-right"></i></a>
+                        </div>
+                    </div> <!-- single services -->
+                </div>
+<div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+                        <div class="services-icon">
+                            <img class="shape" src="assets/images/services-shape.svg" alt="shape">
+                            <img class="shape-1" src="assets/images/services-shape-4.svg" alt="shape">
+                            <i class="lni lni-emoji-happy"></i>
+                        </div>
+                        <div class="services-content mt-30">
+                            <h4 class="services-title"><a>Non-toxic</a></h4>
+                            <p class="text">Ne asigurăm că totul decurge în mod normal, și că nimeni nu se simte prost în această comunitate.</p>
+                        </div>
+                    </div> <!-- single services -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+                        <div class="services-icon">
+                            <img class="shape" src="assets/images/services-shape.svg" alt="shape">
+                            <img class="shape-1" src="assets/images/services-shape-5.svg" alt="shape">
+                            <i class="lni lni-hammer"></i>
+                        </div>
+                        <div class="services-content mt-30">
+                            <h4 class="services-title"><a>Auto-moderare</a></h4>
+                            <p class="text">Pentru a fi siguri că membrii au o experiență plăcută pe server, am automatizat procesul de moderare.</p>
+                        </div>
+                    </div> <!-- single services -->
 
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-8">
+                    <div class="single-services text-center mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+                        <div class="services-icon">
+                            <img class="shape" src="assets/images/services-shape.svg" alt="shape">
+                            <img class="shape-1" src="assets/images/services-shape-1.svg" alt="shape">
+                            <i class="lni lni-star"></i>
+                        </div>
+                        <div class="services-content mt-30">
+                            <h4 class="services-title"><a>Aniga Perks<br>(soon)</a></h4>
+                            <p class="text">Pentru a motiva membrii să fie activi, prin Aniga Perks vrem să recompensăm și să oferim beneficii celor activi.</p>
+                        </div>
+                    </div> <!-- single services -->
+
+                </div>
+                </div>
+
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    
+    <!--====== SERVICES PART ENDS ======-->
+    
+    <!--====== ABOUT PART START ======-->
+    
+    <section id="about" class="about-area pt-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-content mt-50 wow fadeInLeftBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <div class="section-title">
+                            <div class="line"></div>
+                            <h3 class="title">Design plăcut <span>și simplu</span></h3>
+                        </div> <!-- section title -->
+                        <p class="text">Nu te vei încurca între canale, și nu vei vedea discrepanțe între canale.</p>
+                        <a href="https://dsc.gg/aniga" class="main-btn">Vezi chiar tu</a>
+                    </div> <!-- about content -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img src="assets/images/about1.svg" alt="about">
+                    </div> <!-- about image -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+        <div class="about-shape-1">
+            <img src="assets/images/about-shape-1.svg" alt="shape">
+        </div>
+    </section>
+    
+    <!--====== ABOUT PART ENDS ======-->
+    
+    <!--====== ABOUT PART START ======-->
+    
+    <section id="statistici" class="about-area pt-70">
+        <div class="about-shape-2">
+            <img src="assets/images/about-shape-2.svg" alt="shape">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="counter-wrapper mt-50 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+                        <div class="counter-content">
+                            <div class="section-title">
+                                <div class="line"></div>
+                                <h3 class="title">Comunitatea <span> este în continuă creștere</span></h3>
+                            </div> <!-- section title -->
+                            <p class="text">Da, nu cele mai mari numere, dar suntem foarte recunoscători pentru ele.</p>
+                        </div> <!-- counter content -->
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <div class="single-counter counter-color-1 d-flex align-items-center justify-content-center">
+                                    <div class="counter-items text-center">
+                                        <span class="count">+<span class="counter">100</span></span>
+                                        <p class="text">Membrii</p>
+                                    </div>
+                                </div> <!-- single counter -->
+                            </div>
+                            <div class="col-4">
+                                <div class="single-counter counter-color-2 d-flex align-items-center justify-content-center">
+                                    <div class="counter-items text-center">
+                                        <span class="count"><span class="counter">16</span></span>
+                                        <p class="text">Boți</p>
+                                    </div>
+                                </div> <!-- single counter -->
+                            </div>
+                            <div class="col-4">
+                                <div class="single-counter counter-color-3 d-flex align-items-center justify-content-center">
+                                    <div class="counter-items text-center">
+                                        <span class="count"><span class="counter">2</span></span>
+                                        <p class="text">Membrii Staff</p>
+                                    </div>
+                                </div> <!-- single counter -->
+                            </div>
+                        </div> <!-- row -->
+                    </div> <!-- counter wrapper -->
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="about-image text-center mt-50 wow fadeInRightBig" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <img src="assets/images/about2.svg" alt="about">
+                    </div> <!-- about image -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+    
+    <footer id="footer" class="footer-area pt-120">
+        <div class="container">
+            <div class="subscribe-area wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="subscribe-content mt-45">
+                            <h2 class="subscribe-title">Ce mai aștepți? <span>Intră acum!</span></h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="subscribe-form mt-50">
+                            <form action="https://dsc.gg/aniga">
+                                <button class="main-btn" rel="nofollow">Intră acum</button>
+                            </form>
+                        </div>
+                    </div>
+                 </div> <!-- row -->
+            </div> <!-- subscribe area -->
+            <div class="footer-widget pb-100">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-8">
+                        <div class="footer-about mt-50 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
+                            <a class="logo" href="https://aniga.ml">
+                                <img src="assets/images/aniga.svg" alt="logo">
+                            </a>
+                            <p class="text">Aniga este un server dedicat oamenilor care vor să socializeze și să realizeze diferite activități într-un mediu plăcut.</p>
+                        </div> <!-- footer about -->
+                    </div>
+                    <div class="col-lg-5 col-md-7 col-sm-7">
+                        <div class="footer-link d-flex mt-50 justify-content-md-between">
+                            <div class="link-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
+                                <div class="footer-title">
+                                    <h4 class="title">Socials</h4>
+                                </div>
+                                <ul class="link">
+                                    <li><a href="https://aniga.ml">Site</a></li>
+                                    <li><a href="https://instagram.com/aniga.zone/">Instagram</a></li>
+                                    <li><a href="https://youtube.com/channel/UCGArJrTmPt5INM66fJLZ4mw/">Youtube</a></li>
+                                    <li><a href="https://dsc.gg/aniga">Discord</a></li>
+                                </ul>
+                            </div> <!-- footer wrapper -->
+                            <div class="link-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
+                                <div class="footer-title">
+                                    <h4 class="title">Resurse</h4>
+                                </div>
+                                <ul class="link">
+                                    <li><a href="https://trello.com/b/Wn6mY1Wl/aniga-zone">Trello</a></li>
+                                </ul>
+                            </div> <!-- footer wrapper -->
+                        </div> <!-- footer link -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- footer widget -->
+            <div class="footer-copyright">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright d-sm-flex justify-content-between">
+                            <div class="copyright-content">
+                                <p class="text">Proiectat și dezvoltat de <a href="https://uideck.com" rel="nofollow">UIdeck</a><br>Fondat de Radu.</p>
+                            </div> <!-- copyright content -->
+                        </div> <!-- copyright -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- footer copyright -->
+        </div> <!-- container -->
+        <div id="particles-2"></div>
+    </footer>
+    
+    <!--====== FOOTER PART ENDS ======-->
+    
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->   
+    
+    <!--====== PART START ======-->
+    
+<!--
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-"></div>
+            </div>
+        </div>
+    </section>
+-->
+    
+    <!--====== PART ENDS ======-->
+
+
+
+
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-3.5.1-min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap-4.5.0.min.js"></script>
+    
+    <!--====== Plugins js ======-->
+    <script src="assets/js/plugins.js"></script>
+    
+    <!--====== Counter Up js ======-->
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    
+
+    
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    
+    <!--====== wow js ======-->
+    <script src="assets/js/wow.min.js"></script>
+    
+    <!--====== Particles js ======-->
+    <script src="assets/js/particles.min.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+    
 </body>
+
 </html>
