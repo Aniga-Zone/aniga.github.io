@@ -1,6 +1,6 @@
 # Site-ul oficial al comunității Aniga.
 
-#### ❱ 🔗 **[Site](https://aniga.ml/)**
+#### ❱ 🔗 **[Site](https://aniga.cf/)**
 #### ❱ **[Discord](https://dsc.gg/aniga)**
 
 #### ❱ **[Instagram](https://instagram.com/aniga.zone/)**
